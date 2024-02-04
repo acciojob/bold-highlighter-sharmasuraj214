@@ -1,20 +1,31 @@
+<!-- index.html -->
+
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Get And Style All Tags</title>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bold Highlighter</title>
+  <style>
+    /* Add any additional styles as needed */
+    a {
+      text-decoration: underline;
+      cursor: pointer;
+      color: blue;
+    }
+  </style>
 </head>
-
 <body>
-  	<p>[<a href="#" onMouseOver="highlight()" onMouseOut="return_normal()">On mouse over here bold words of the following paragraph will be highlighted</a>]</p> 
-	<p><strong>AccioJob</strong> is an <strong>ed-tech startup</strong> run by IIT Delhi Alumni that provides a comprehensive state-of-the-art learning platform for <strong>Full Stack Web Development</strong>. Our industry-relevant curriculum is taught by top tech instructors and mentors, and our students have gone on to work at leading tech companies like <strong>Amazon</strong>, <strong>Salesforce</strong>, and <strong>Walmart</strong>, among others. With job placement opportunities at <strong>300+</strong> top tech partner companies, we have placed <strong>1000+</strong> students in 2022 itself at an average salary of <strong>8.3 LPA</strong></p>
 
-    <script type="text/javascript" src="./script.js">
-</script>
+  <a href="#" onmouseover="highlight()" onmouseout="returnNormal()">Hover Over Link</a>
 
+  <p>
+    AccioJob is an ed-tech startup run by IIT Delhi alumni that provides a comprehensive state-of-the-art learning platform for Full Stack Web Development.
+    Our industry-relevant curriculum is taught by top tech instructors and mentors, and our students have gone on to work at leading tech companies like Amazon, Salesforce, and Walmart, among others.
+    With job placement opportunities at 300+ top tech partner companies, we have placed 1000+ students in 2022 itself at an average salary of 8.3 LPA.
+  </p>
+
+  <!-- Include the script file -->
+  <script src="script.js"></script>
 </body>
-
 </html>
